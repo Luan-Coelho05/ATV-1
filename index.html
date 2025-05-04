@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alterar cor de fundo</title>
+  <link rel="stylesheet" href="css/estilo.css"> 
+</head>
+<body>
+
+  
+  <button id="btnAlterarCor">Clique para alterar a cor de fundo</button>
+
+  <script>
+    
+    function AlterarCor() {
+      document.body.style.backgroundColor = "#504892"; 
+    }
+
+    document.getElementById("btnAlterarCor").addEventListener("click", AlterarCor);
+  </script>
+
+</body>
+</html>
